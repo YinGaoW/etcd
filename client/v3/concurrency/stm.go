@@ -54,6 +54,8 @@ const (
 	RepeatableReads
 	// ReadCommitted reads keys from any committed revision.
 	ReadCommitted
+	// WYG add to test
+	Tomcat111
 )
 
 // stmError safely passes STM errors through panic to the STM error channel.
